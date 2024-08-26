@@ -22,9 +22,8 @@ export function LampDemo() {
           }}
           className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-2 bg-clip-text text-center text-3xl font-semibold tracking-tight text-transparent md:text-5xl"
         >
-          YourCompany
+          FinanceConnect
         </motion.h1>
-
         {/* Tagline: Decentralized Loans */}
         <motion.h2
           initial={{ opacity: 0.5, y: 100 }}

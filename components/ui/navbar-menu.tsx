@@ -75,7 +75,7 @@ export const Menu = ({
     >
       {/* Company Name - Visible only on desktop */}
       <div className="hidden md:flex items-center space-x-4">
-        <span className="text-xl font-bold text-white">YourCompanyName</span> {/* Replace with your company name */}
+        <span className="text-xl font-bold text-[#34d399]">FinanceConnect</span> {/* Replace with your company name */}
       </div>
 
       {children}

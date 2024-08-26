@@ -1,7 +1,8 @@
-import Image from "next/image";
-import Microfinance from "@/components/first";
+import { ThreeDCardDemo } from "@/components/card";
+import Faq from "@/components/faq";
 import Hero from "@/components/hero";
 import { LampDemo } from "@/components/lampdemo";
+import { MarqueeDemo } from "@/components/review";
 import Workflow from "@/components/workflow";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
       <Hero/>
       <LampDemo/>
       <Workflow />
+      <Faq />
+      <ThreeDCardDemo/>
     </div>
   );
 }
